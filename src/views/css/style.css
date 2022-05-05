@@ -68,8 +68,12 @@ body {
 
 .button,
 .button_operator,
-.button_function {
+.button_function,
+.button_submit {
     cursor: pointer;
+    border: none;
+    color: white;
+    font-weight: bold;
     border-radius: 50%;
     width: 64px;
     height: 64px;
@@ -80,7 +84,8 @@ body {
     background: var(--color-1);
 }
 
-.button_operator {
+.button_operator,
+.button_submit {
     background: var(--color-3);
 }
 
@@ -92,7 +97,8 @@ body {
     background: var(--color-1-hover);
 }
 
-.button_operator:hover {
+.button_operator:hover,
+.button_submit:hover {
     background: var(--color-3-hover);
 }
 

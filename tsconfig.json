@@ -5,7 +5,7 @@
       "dom"
     ],
     "outDir": "src/models/js",
-    "module": "es6"
+    "module": "commonjs"
   },
   "include": [
     "src/**/*.ts",

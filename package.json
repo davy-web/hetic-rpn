@@ -4,7 +4,7 @@
   "description": "Starter project for kata (Node, TypeScript, Jest)",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/server.js",
+    "start": "nodemon src/server.ts",
     "test": "jest --watch --config --coverage jest.config.json",
     "format": "prettier --write \"src/**/*.ts\""
   },
@@ -18,6 +18,7 @@
     "jest-extended": "^2.0.0",
     "nodemon": "^2.0.16",
     "prettier": "^2.5.1",
+    "ts-node": "^10.7.0",
     "typescript": "^4.5.4"
   },
   "jest": {
@@ -47,6 +48,7 @@
   },
   "homepage": "https://github.com/mathieueveillard/js-kata-starter#readme",
   "dependencies": {
+    "body-parser": "^1.20.0",
     "ejs": "^3.1.7",
     "express": "^4.18.1"
   }
