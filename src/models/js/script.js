@@ -21,10 +21,12 @@ function submitHandler(e) {
 
 // Bouton
 function click_button(element) {
+    let result = document.getElementById('result');
     let calcul = document.getElementById('calcul');
     let text = element.srcElement.innerText;
 
     if (text == "c") {
+        result.innerHTML = "";
         calcul.value = "";
     }
     else if (text == "supp") {
