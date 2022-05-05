@@ -1,4 +1,4 @@
-import { rpn } from ".";
+import { rpn } from "./rpn";
 
 it("1 = 1", function () {
   expect(rpn('1')).toEqual(1);

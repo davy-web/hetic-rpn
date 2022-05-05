@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice RPN</title>
+    <link rel="shortcut icon" type="image/x-icon" href="views/images/favicon.png">
+    <link rel="stylesheet" href="views/css/style_bootstrap_grid.min.css">
+    <link rel="stylesheet" href="views/css/style.css">
+</head>
+
+<body>
+    <div class="container text_center">
+        <h1>Calculatrice RPN</h1><br>
+    </div>
+    <div class="container calcuatrice text_center">
+        <div class="row">
+            <div class="col">
+                <input type="text" id="calcul" name="calcul">
+                <p id="result" class="mb-5 mt-0"></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 box_center">
+                <div class="box_center button_function">
+                    c
+                </div>
+            </div>
+            <div class="col-3 box_center">
+                <div class="box_center button_function">
+                    supp
+                </div>
+            </div>
+            <div class="col-3 box_center">
+                <div class="box_center button_function">
+                    space
+                </div>
+            </div>
+            <div class="col-3 box_center">
+                <div class="box_center button_operator">
+                    /
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 box_center">
+                <div class="box_center button">
+                    7
+                </div>
+            </div>
+            <div class="col-3 box_center">
+                <div class="box_center button">
+                    8
+                </div>
+            </div>
+            <div class="col-3 box_center">
+                <div class="box_center button">
+                    9
+                </div>
+            </div>
+            <div class="col-3 box_center">
+                <div class="box_center button_operator">
+                    *
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 box_center">
+                <div class="box_center button">
+                    4
+                </div>
+            </div>
+            <div class="col-3 box_center">
+                <div class="box_center button">
+                    5
+                </div>
+            </div>
+            <div class="col-3 box_center">
+                <div class="box_center button">
+                    6
+                </div>
+            </div>
+            <div class="col-3 box_center">
+                <div class="box_center button_operator">
+                    -
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 box_center">
+                <div class="box_center button">
+                    1
+                </div>
+            </div>
+            <div class="col-3 box_center">
+                <div class="box_center button">
+                    2
+                </div>
+            </div>
+            <div class="col-3 box_center">
+                <div class="box_center button">
+                    3
+                </div>
+            </div>
+            <div class="col-3 box_center">
+                <div class="box_center button_operator">
+                    +
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 box_center">
+                <div class="box_center button">
+
+                </div>
+            </div>
+            <div class="col-3 box_center">
+                <div class="box_center button">
+                    .
+                </div>
+            </div>
+            <div class="col-3 box_center">
+                <div class="box_center button">
+                    0
+                </div>
+            </div>
+            <div class="col-3 box_center">
+                <a id="submit">
+                    <div class="box_center button_operator">
+                        =
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col p-4">
+            </div>
+        </div>
+    </div>
+
+    <div class="container container_small">
+        <div class="row">
+            <div class="col p-5">
+                <p>
+                    Réaliser par :<br>
+                    - Davy CHEN<br>
+                    - Antoine OLIVER<br>
+                    - Ricardo JUSME<br>
+                    - Sentiany Priska SUMAMPOW<br>
+                    - Grégory DJERRADINE<br>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="models/js/rpn.js"></script>
+    <script src="models/js/script.js"></script>
+</body>
+
+</html>

@@ -1,6 +1,6 @@
-# Hetic - RPN
+# Hetic - Notation polonaise inverse (RPN)
 Project use :
-- Node, 
+- Node
 - TypeScript
 - Jest
 
@@ -14,4 +14,8 @@ Project use :
 ## Getting started
 - **Fork**, then clone the repository
 - Install dependencies (`npm install`)
-- Start developing (`npm test`)
+- Start developing (`npm run test`), then press `a`
+- Start website (`npm run start`)
+
+## URL Site local
+- http://localhost:8080/
