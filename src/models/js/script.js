@@ -27,11 +27,11 @@ function click_button(element) {
     if (text == "c") {
         calcul.value = "";
     }
-    else if (text == "space") {
-        calcul.value = calcul.value + " ";
-    }
     else if (text == "supp") {
         calcul.value = calcul.value.substring(0, calcul.value.length - 1);
+    }
+    else if (text == "negate") {
+        calcul.value = calcul.value + "NEGATE";
     }
     else {
         calcul.value = text ? calcul.value + text : calcul.value + " ";
