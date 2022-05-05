@@ -7,7 +7,7 @@ Project use :
 ## Groupe
 - Davy CHEN
 - Antoine OLIVER
-- Ricardo JUSME
+- Jean Ricardo JUSME
 - Sentiany Priska SUMAMPOW
 - Grégory DJERRADINE
 
