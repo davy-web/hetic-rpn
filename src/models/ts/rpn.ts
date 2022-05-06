@@ -26,13 +26,18 @@ export function rpn(calcul: string): number | string {
         }
 
         // Element is operator
-        else {
+        else if (element == "+" || element == "-" || element == "*" || element == "/") {
             if (stack_number.length < 2) {
                 return "Error";
             }
             let last_number_on_stack = stack_number.pop();
             let before_last_number_on_stack = stack_number.pop();
             stack_number.push(eval(before_last_number_on_stack + ' ' + element + ' ' + last_number_on_stack));
+        }
+
+        // Element is not operator and is not number and is not NEGATE
+        else {
+            return "Error";
         }
     }
 
