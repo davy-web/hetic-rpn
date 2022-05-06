@@ -12,6 +12,10 @@ it("1 2 + 3 4 + + 5 + = 15", function () {
   expect(rpn('1 2 + 3 4 + + 5 +')).toEqual(15);
 });
 
+it("1.8 2.2 + = 4", function () {
+  expect(rpn('1.8 2.2 +')).toEqual(4);
+});
+
 it("1 1 - = 0", function () {
   expect(rpn('1 1 -')).toEqual(0);
 });
