@@ -87,3 +87,7 @@ it("4 1 / 1 = Error", function () {
 it("4 4 $ = Error", function () {
   expect(rpn('4 4 $')).toEqual("Error");
 });
+
+it(" = Error", function () {
+  expect(rpn('')).toEqual("Error");
+});
